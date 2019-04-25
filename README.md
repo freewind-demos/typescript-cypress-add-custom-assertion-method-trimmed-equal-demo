@@ -1,4 +1,4 @@
-TypeScript Cypress Add Custome Assertion Operator Demo
+TypeScript Cypress Add Custom Assertion Operator Demo
 =======================================================
 
 主要是利用了chai的扩展能力。
