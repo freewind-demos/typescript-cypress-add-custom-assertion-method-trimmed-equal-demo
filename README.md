@@ -1,11 +1,9 @@
-TypeScript Cypress Test Demo
-=========================================
+TypeScript Cypress Add Custome Assertion Operator Demo
+=======================================================
 
-注意点：
+主要是利用了chai的扩展能力。
 
-1. `cypress/plugins/index.js`不能使用`.ts`，所以`webpack.config.js`也不能使用`.ts`
-2. 由于混用了`.js`与`.ts`，所以webpack中要设置`resolve`->`extensions`
-3. `tsconfig.json`中一定要设置`"types": [ "cypress" ]`，否则`cy`等typing找不到
+需要注意：可以把多个operator使用`.`串起来使用，形成易读的语句。
 
 ```
 npm install
